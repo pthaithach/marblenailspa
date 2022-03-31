@@ -2,8 +2,8 @@
   $(function () {
 
     // MENU
-    $('.navbar-collapse a').on('click',function(){
-      $(".navbar-collapse").collapse('hide');
+    $('.navbar-collapse>ul>li>a').on('click',function(){
+      $('.navbar-collapse').collapse('hide');
     });
 
     // AOS ANIMATION
@@ -24,7 +24,7 @@
         event.preventDefault();
       });
     });    
-  });
+  })
 
 
     
